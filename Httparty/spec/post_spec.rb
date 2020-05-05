@@ -2,7 +2,7 @@ describe 'fazer uma requisição' do
     it 'post' do
         @body = {
             "name": "Gustavo",
-            "Last_name": "Cardoso",
+            "last_name": "Cardoso",
             "email": "httparty@ruby.com",
             "age": 34,
             "phone": "16991990000",

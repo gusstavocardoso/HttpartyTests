@@ -1,11 +1,14 @@
 require 'httparty'
 require 'httparty/request'
 require 'httparty/response/headers'
+require 'faker'
 
 require_relative '../services/contatos_service.rb'
+require_relative '../services/criar_service.rb'
 
 RSpec.configure do |config|
   include Contato
+  include Criar
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
   # assertions if you prefer.
